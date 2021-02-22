@@ -9,8 +9,7 @@ Compile the source (src/tadershoy.c) and link with X11 and GL
 ### Running
 
 Run the program and provide a path to a shader file as an argument.
-If the file does not exist, the program tries to create it.
-The created file lists the relevant shader inputs and outputs.
+The program opens a window, loads the fragment shader from the provided path, or creates it if it does not exist. The created file lists the relevant shader inputs and outputs.
 
 `./tadershoy path/to/shader`
 
