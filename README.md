@@ -4,8 +4,7 @@ A quick and dirty program to display and hotload a fragment shader. (OpenGL/Xlib
 
 ### Building
 
-Compile the source and link with X11 and GL:
-`cc -lX11 -lGL src/tadershoy.c -o tadershoy`
+Compile the source (src/tadershoy.c) and link with X11 and GL
 
 ### Running
 
